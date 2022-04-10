@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;   
+}
+
+.header, 
+.footer {
+    background: #1F2937;
+    color: white;
+}
+
+.main-2 {
+    background: #E5E7EB;
+}
+
+.action,
+button{
+    color: white;
+    background: #3882f6;
+}
