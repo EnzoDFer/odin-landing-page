@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
 }
 
 .header, 
@@ -66,6 +66,7 @@ button{
 /*   MAIN 1  */
 
 .main-1 {
+    flex: 1;
     padding: 32px;
 }
 
@@ -99,4 +100,24 @@ button{
     border: 2px solid #3882f6;
     border-radius: 8px;
     padding: 50px;
+}
+
+/*   MAIN 2   */
+
+.main-2 {
+    flex: 1 0 auto;
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+}
+
+#author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
