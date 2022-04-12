@@ -15,6 +15,8 @@ body {
 
 .action,
 button{
+    border-radius: 8px;
+    padding: 0px 24px;
     color: white;
     background: #3882f6;
 }
@@ -52,6 +54,7 @@ button{
 }
 
 .text button {
+    border: 1px solid #3882f6;
     border-radius: 6px;
     padding: 2px 16px;
     align-self: flex-start;
@@ -120,4 +123,21 @@ button{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+/*    MAIN 3   */
+
+.main-3 {
+    padding: 64px 100px;
+    flex: 1 0 auto;
+}
+
+.action {
+    padding: 32px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action button {
+    border: 1px white solid;
 }
