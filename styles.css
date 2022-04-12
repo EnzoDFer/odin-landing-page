@@ -141,3 +141,19 @@ button{
 .action button {
     border: 1px white solid;
 }
+
+ /*    Footer   */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.footer .text {
+    color:#f9faf8;
+    text-align: center;
+    font-size: 18px;
+}
