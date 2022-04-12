@@ -62,3 +62,41 @@ button{
     font-weight: bolder;
     color: #f9faf8;
 }
+
+/*   MAIN 1  */
+
+.main-1 {
+    padding: 32px;
+}
+
+.main-1 .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.content .text {
+    text-align: center;
+}
+
+.content img {
+    flex: 1 0 auto;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    padding: 50px;
+}
