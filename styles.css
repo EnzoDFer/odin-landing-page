@@ -69,7 +69,7 @@ button{
 /*   MAIN 1  */
 
 .main-1 {
-    flex: 1;
+    flex: auto;
     padding: 32px;
 }
 
@@ -108,7 +108,7 @@ button{
 /*   MAIN 2   */
 
 .main-2 {
-    flex: 1 0 auto;
+    flex: auto;
     display: flex;
     padding: 64px;
     flex-direction: column;
@@ -129,7 +129,7 @@ button{
 
 .main-3 {
     padding: 64px 100px;
-    flex: 1 0 auto;
+    flex: auto;
 }
 
 .action {
@@ -149,11 +149,12 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 16px;
+    flex: 0 1 auto;
 }
 
 .footer .text {
     color:#f9faf8;
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
 }
